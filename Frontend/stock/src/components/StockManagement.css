@@ -1,0 +1,74 @@
+/* StockManagement.css */
+.stock-management {
+    padding: 20px;
+    background: #f5f6fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-management h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .stock-management p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .stock-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .stock-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .stock-form button {
+    padding: 10px 20px;
+    background: #4a69bd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .stock-form button:hover {
+    background: #1e3799;
+  }
+  
+  .stock-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stock-list li {
+    background: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-list button {
+    padding: 5px 10px;
+    background: #78e08f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .stock-list button:hover {
+    background: #38ada9;
+  }
+  
