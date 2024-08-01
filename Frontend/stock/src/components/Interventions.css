@@ -1,0 +1,58 @@
+/* Interventions.css */
+.interventions {
+    padding: 20px;
+    background: #f5f6fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .interventions h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .interventions p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .intervention-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .intervention-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .intervention-form button {
+    padding: 10px 20px;
+    background: #4a69bd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .intervention-form button:hover {
+    background: #1e3799;
+  }
+  
+  .intervention-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .intervention-list li {
+    background: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
